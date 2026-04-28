@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #f8f4ea;
+  color: #111111;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: #b08d57;
+  color: #111111;
+}
+
+.paper-texture {
+  background-image:
+    linear-gradient(rgba(17, 17, 17, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(17, 17, 17, 0.02) 1px, transparent 1px);
+  background-size: 26px 26px;
+}
