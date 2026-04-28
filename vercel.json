@@ -1,0 +1,6 @@
+{
+  "buildCommand": "npm --workspace apps/duhai-web run build",
+  "outputDirectory": "apps/duhai-web/.next",
+  "installCommand": "npm install",
+  "framework": "nextjs"
+}
