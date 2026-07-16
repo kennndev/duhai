@@ -78,7 +78,14 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
-    <script src="https://tcgplaytest.com/partner-widget/widget.js" data-partner-key="partner_052c708b68244315aca0712c" data-product-name="Premium custom card printing" data-price-cents="2500" data-accent="#16a34a" async></script>
+ <Script
+  src="https://testing123-prof.vercel.app/partner-widget/widget.js"
+  data-partner-key="partner_fb2c1503a7542cebb9b7e8a"
+  data-product-name="Premium custom card printing"
+  data-partner-share-bps="200"
+  data-accent="#16a34a"
+  strategy="afterInteractive"
+/>
     </main>
   );
 }
