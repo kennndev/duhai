@@ -1,4 +1,5 @@
 import { ArrowRight, FileText, ShieldCheck, Timer } from "lucide-react";
+import Script from "next/script";
 import { ButtonLink } from "@/components/ui/button";
 import { CategoryCards } from "@/components/marketing/category-cards";
 import { SiteHeader } from "@/components/marketing/site-header";
@@ -77,6 +78,14 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
+      <Script
+        src="https://tcgplaytest.com/partner-widget/widget.js"
+        data-partner-key="partner_7a9f133270934e59bbabe9ab"
+        data-product-name="Premium custom card printing"
+        data-price-cents="2500"
+        data-accent="#16a34a"
+        strategy="afterInteractive"
+      />
     </main>
   );
 }
