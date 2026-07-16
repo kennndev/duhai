@@ -78,9 +78,9 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
- <Script
+      <Script
   src="https://testing123-prof.vercel.app/partner-widget/widget.js"
-  data-partner-key="partner_fb2c1503a7542cebb9b7e8a"
+  data-partner-key="partner_fbefb1b82bd04686bfe29965"
   data-product-name="Premium custom card printing"
   data-partner-share-bps="200"
   data-accent="#16a34a"
